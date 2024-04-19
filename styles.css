@@ -133,3 +133,23 @@ a {
     max-width: 100%;
     color:#1F2937;
 }
+
+#third{
+    background-color: #E5E7EB;
+}
+
+#full-quote{
+    padding: 3em 10em;
+}
+
+.quote{
+    font-size: 22px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #4a4f57;
+}
+
+.author{
+    text-align: right;
+    font-weight: bold;
+}
