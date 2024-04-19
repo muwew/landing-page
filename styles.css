@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+    
+}
+
+#first{
+    background-color: #1F2937;
+    display: block;
+    color: #F9FAF8;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 3em;
+}
+
+.header{
+    display:flex;
+    padding: 0;
+    align-items: center;
+    height: 50px;
+    padding-bottom: 3em;
+}
+
+.header-logo{
+    font-size: 24px;
+    margin-right: auto;
+    align-items: center;
+    /* border: #F9FAF8 1px solid; */
+}
+
+.secondary-text{
+    font-size: 18px;
+    /* border:#F9FAF8 1px solid; */
+}
+
+ol{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    gap:10px;
+}
+
+.header li{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color:#F9FAF8;
+    text-decoration: none;
+    padding: 0;
+}
+
+#intro{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+#title{
+    font-size: 48px;
+    font-weight: extra-bold;
+    /* border: #F9FAF8 1px solid; */
+    margin: 0;
+}
+
+.left{
+    /* border:#F9FAF8 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.button{
+    flex: 0;
+}
+
+.signup{
+    border: none;
+    background-color: #3882F6;
+    padding: 5px 24px;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+}
+
+.signup:hover{
+    background-color: white;
+    color: #3882F6;
+}
+
+#second{
+    background-color: white;
+    margin-bottom: 3em;
+}
+
+.title2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.product-info{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.product img{
+    max-width: 100%;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.subtext{
+    max-width: 100%;
+    color:#1F2937;
+}
