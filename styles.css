@@ -32,7 +32,7 @@ body{
 }
 
 .secondary-text{
-    font-size: 18px;
+    font-size: 16px;
     /* border:#F9FAF8 1px solid; */
 }
 
@@ -55,6 +55,10 @@ a {
     color:#F9FAF8;
     text-decoration: none;
     padding: 0;
+}
+
+a:hover{
+    color:#3882F6;
 }
 
 #intro{
@@ -152,4 +156,34 @@ a {
 .author{
     text-align: right;
     font-weight: bold;
+}
+
+#fourth{
+    display: flex;
+    justify-content: center;
+}
+
+#call-to-action{
+    display: flex;
+    margin: 5em;
+    padding: 2em 5.5em;
+    width: fit-content;
+    background-color: #3882F6;
+    gap: 5em;
+    border-radius: 10px;
+}
+
+#call-to-action button{
+    border: 2px solid #F9FAF8;
+    align-self: center;
+}
+
+#action-text{
+    margin: 0px;
+    color: #F9FAF8;
+    gap: 0.2em;
+}
+
+#action-title, #action-text .secondary-text{
+    margin: 0px;
 }
